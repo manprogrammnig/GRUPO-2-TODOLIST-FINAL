@@ -7,24 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>TodoList</title>
+    <script src="https://kit.fontawesome.com/a5bc61b517.js" crossorigin="anonymous"></script>
 </head>
 <style>
 
 </style>
 
 <body  >
+  <div class="login-continer">
+      <img src="720.jpg" alt="">
+      <p>Sistema login</p>
+      <div class="fields">
+         <div class="data">
+         <i class="fas fa-at"></i>
+         <input type="Ingresa tu correo" placeholder="Usuario">
+         </div>  
+         <div class="data">
+         <i class="fas fa-lock"></i>
+         <input type="Contraseña" placeholder="Contraseña">
 
-    <form action="validar.php" method="post">
-        <h1>Sistema de Login</h1> <br>
-
-        <label for="">CORREO ELECTRONICO</label>
-        <input type="text" name="correo" placeholder="COrreo electronico" required>
-        <label for="">CONTRASEÑA</label>
-        <input type="password" name="contraseña" placeholder="Contraseña" required>
-        <button type="submit">LOGIN</button>
-        <p> <a href="registrarvista.php">REGISTRATE</a></p>
-
-    </form>
+         </div>
+      </div>
+     
+      
+   <button class="btm-login">Entra</button>
+  </div>
+    
 </body>
 
 </html>
