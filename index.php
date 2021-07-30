@@ -19,7 +19,7 @@
   <h1>Tareas disponibles</h1>
 
   <div class="login-continer" >
-      <img src="720.jpg" alt="">
+      <img src="720.jpg" alt="" >
       <p>Iniciar tareas</p>
       <label for="">CORREO ELECTRONICO</label>
       <div class="fields">
