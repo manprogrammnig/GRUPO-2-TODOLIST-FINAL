@@ -1,3 +1,3 @@
 <?php
-$connexion=mysqli_connect("localhost","root","1234","bd_registro");
+$connexion=mysqli_connect("localhost","root","123456","bd_registro");
 ?>

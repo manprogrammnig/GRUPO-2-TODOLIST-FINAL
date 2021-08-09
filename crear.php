@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5"></script>
+  <link rel="stylesheet" href="style.css">
 
     <title>Lista de tareas</title>
 </head>
@@ -15,20 +17,12 @@
     include('db.php');
     ?>
 
-
-    <div class="row justify-content-center">
-        <br>
-        <br>
-        <br>
-        <div class="card-header">
-
-
-            <h3 class="card-title">
-                <i class="fas fa-user mr-1"></i>
-                CREAR LISTA DE TAREAS
-            </h3>
-        </div>
-    </div>
+<div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Crear nueva Tarea</h1>
+        </header>
+</div>
+    
 
     <div class="card-body">
 
@@ -50,12 +44,15 @@
             header('location: todo.php');
         }
         ?>
+        <header class="text-center text-light my-4">
+            <h4 class="mb-4">Descripción de las tareas</h4>
+        </header>
 
         <form class="form-horizontal" action="" method="post">
 
 
-            <div class="form-group">
-                <label for="inputName">NOMBRE TAREA</label>
+            <div class="row justify-content-center">
+                
                 <input type="text" id="inputName" class="form-control" name="tarea" value="<?php echo $tareas; ?>">
             </div>
             <br>
