@@ -1,4 +1,4 @@
-drop database  bd_registro;
+-- drop database  bd_registro;
 create database bd_registro;
 use bd_registro;
 

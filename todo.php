@@ -24,6 +24,7 @@
     <div class="alert alert">
 
     </div>
+    
 
     <div class="container">
         <header class="text-center text-light my-4">
@@ -80,7 +81,6 @@
     </div>
 
     <a href="index.php" class="btn btn-danger">Cerrar sesion</a>
-
 
 
 </body>
